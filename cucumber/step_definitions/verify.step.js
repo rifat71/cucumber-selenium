@@ -1,5 +1,4 @@
 const { Then } = require('@cucumber/cucumber');
-// const { getTextFromElement } = require(`../../../utils/getElements`);
 const { expect } = require('chai');
 
 Then(/^'(.+)' text displays$/, async function (text) {

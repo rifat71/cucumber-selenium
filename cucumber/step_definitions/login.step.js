@@ -16,10 +16,8 @@ When(/^I login with credentials :$/, async function (table) {
       await userIdElement.sendKeys(values.userId, Key.ENTER);
       await Promise.delay(500);
    }
-    const a = await this.driver.findElement(By.xpath('//button/*/span[text()="Log In"]'));
-    await a.click();
+    await this.driver.findElement(By.xpath('//button/*/span[text()="Log In"]')).click();
 });
 // https://practicetestautomation.com/practice-test-login/
 // https://www.linkedin.com/login
-// rifatmahmud24311@gmail.com
 // https://www.linkedin.com/checkpoint/lg/login-submit
