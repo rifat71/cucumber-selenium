@@ -1,6 +1,6 @@
 Feature: Login Into System
   @wip
-  Scenario: Login with Invalid Data
+  Scenario: Login with Invalid Credentials
     Given open a new browser window
     When I navigate to the 'login' page
     And I login with credentials :
